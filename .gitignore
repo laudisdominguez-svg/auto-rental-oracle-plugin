@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+artifacts/
+cache/
+coverage/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Private keys and secrets
+*.key
+*.pem
+*.p12
+*.pfx
+mnemonic.txt
+wallet.json
+private_key*
+secret*
+.secrets/
+keys/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Reports
+coverage.json
+reportFile.json
+gasReporterOutput.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+test-results/
+*.coverage
